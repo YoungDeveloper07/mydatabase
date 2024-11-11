@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Rang o'zgarishi uchun animatsiya */
 @keyframes colorChange {
@@ -57,3 +58,64 @@ p{
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+=======
+
+/* Rang o'zgarishi uchun animatsiya */
+@keyframes colorChange {
+    0% {
+        color: #4A90E2; /* Och ko'k */
+    }
+    50% {
+        color: #4CAF50; /* Och yashil */
+    }
+    100% {
+        color: #4A90E2; /* Yana och ko'k */
+    }
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    animation: colorChange 2s infinite;
+}
+
+p{
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn{
+    font-size: 24px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 47%;
+}
+.btn:hover{
+    background: #45a049;
+}
+/* Kartochka uslubi */
+.card {
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin: 50px auto; /* Sahifaning markaziga joylashadi */
+}
+
+/* Hover effekt */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+>>>>>>> 6a728279ce5afd7236087c94c6e91dd56aa341a6
